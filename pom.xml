@@ -86,6 +86,21 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Spring-Boot-Mongo</name>
+	      <url>http://13.58.57.66:8181/mylandmarktech/repository/spring-boot-mongo-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <url>http://13.58.57.66:8181/mylandmarktech/repository/spring-boot-mong-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
